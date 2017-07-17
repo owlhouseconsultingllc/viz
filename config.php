@@ -20,7 +20,7 @@ require_once("scripts/ZxcvbnPhp/Zxcvbn.php");
 include_once("scripts/PHPAuth/Config.php");
 include_once("scripts/PHPAuth/Auth.php");
 
-//MySQL PDO Connection (enter host deatils here
+//MySQL PDO Connection (enter host/credentials here!)
 $dbh = new PDO("mysql:host=;dbname=", "", "");
 $config = new \PHPAuth\Config($dbh);
 $auth   = new \PHPAuth\Auth($dbh, $config);
