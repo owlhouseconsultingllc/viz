@@ -1,15 +1,29 @@
 # viz
 Simple dashboard builder written in PHP that uses MySQL, Bootstrap, and D3/NVD3 for Data visualizations.
 
+Live Demo available at the following Link:
+     https://owlhousellc.com/livedemo
+
 Installation Notes:
-Using MySQL create the database and associated credentials, and then run the install_viz.sql found in the install folder.
+Using MySQL create the database and associated credentials, and then run the install_viz.sql found in the install folder.  Make sure to include your connection information and credentials in the config.php file.
 
 The default admin credentials are as follows:
 
      username: admin
      password: admin
 
-If you wish to have some examples/sample data to help you get started, create a sampledb database and run the sampledb.sql.  Then run the tabs.sql and visualizations.sql on the applications database that was installed in the previous step.
+The default editor credentials are as follows(no user admin access):
+
+     username: edit
+     password: edit
+
+The default view-only credentials are as follows(no edit or user admin access):
+
+     username: demo
+     password: demo
+
+Sample Data Installation Notes:
+For examples/sample data, create a database named sampledb and run the sampledb.sql.  Next, run the tabs.sql and visualizations.sql on the viz database.  The vizualizations will need to be updated with the correct connection/authentication information by clicking on the cog icon, going in to Manage Visualizations, and editing each.
 
 -Dave
 
