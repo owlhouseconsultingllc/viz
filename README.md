@@ -3,7 +3,7 @@
 
 ![Dashboard Image](https://owlhousellc.com/oh_sample1.png)
 
-![Mobile Image](https://owlhousellc.com/oh_sample4.png)
+![Mobile Image](https://owlhousellc.com/oh_sample3.png)
 
 Live Demo available at the following Link:
      https://owlhousellc.com/livedemo
