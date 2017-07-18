@@ -1,5 +1,6 @@
 # viz
-Simple dashboard builder written in PHP that uses MySQL, Bootstrap, and D3/NVD3 for Data visualizations.
+**Simple dashboard builder written in PHP that uses MySQL, Bootstrap, and D3/NVD3 for Data visualizations.**
+
 ![Dashboard Image](https://owlhousellc.com/oh_sample1.png)
 Live Demo available at the following Link:
      https://owlhousellc.com/livedemo
