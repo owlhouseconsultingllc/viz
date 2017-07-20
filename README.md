@@ -3,7 +3,7 @@
 
 ![Dashboard Image](https://owlhousellc.com/oh_sample1.png)
 
-Mobile Ready:
+**Mobile Ready!**
 
 ![Mobile Image](https://owlhousellc.com/oh_sample3.png)
 
