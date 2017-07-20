@@ -78,3 +78,5 @@ Height Override: Customize visualization height (Default 250px)
 Date Format Override: D3 date format settings (Default %Y-%m-%d)
 
 Notes: This section is for notes
+
+*(Additional Note:  In general, the first column in the query result will be the x-axis.  The query may need to be adjusted according to the desired outcome.)*
