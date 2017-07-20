@@ -77,4 +77,4 @@ Height Override: Customize visualization height (Default 250px)
 
 Date Format Override: D3 date format settings (Default %Y-%m-%d)
 
-Notes: Notes section
+Notes: This section is for notes
