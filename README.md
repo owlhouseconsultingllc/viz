@@ -12,7 +12,7 @@ Live Demo available at:
 
 
 ## Installation Notes:
-Using MySQL create the database and associated credentials, and then run the install_viz.sql found in the install folder.  Make sure to include your connection information and credentials in the *config.php* file.
+Using MySQL, create the database and associated credentials and then run the install_viz.sql found in the install folder.  Make sure to include your connection information and credentials in the *config.php* file.
 
 The default admin credentials are as follows:
 
