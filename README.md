@@ -1,15 +1,14 @@
 # viz
 **Simple dashboard builder written in PHP that uses MySQL, Bootstrap, and D3/NVD3 for Data visualizations.**
 
-Live Demo available at:
-     https://owlhousellc.com/livedemo
-
 ![Dashboard Image](https://owlhousellc.com/oh_sample1.png)
 
 **Mobile Ready!**
 
 ![Mobile Image](https://owlhousellc.com/oh_sample3.png)
 
+Live Demo available at:
+     https://owlhousellc.com/livedemo
 
 ## Installation Notes:
 Using MySQL, create the database and associated credentials and then run the install_viz.sql found in the install folder.  Make sure to include your connection information and credentials in the *config.php* file.
