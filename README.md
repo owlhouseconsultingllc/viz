@@ -7,8 +7,8 @@
 
 ![Mobile Image](https://owlhousellc.com/oh_sample3.png)
 
-Live Demo available at:
-     https://owlhousellc.com/livedemo
+**Live Demo available at:
+     https://owlhousellc.com/livedemo**
 
 ## Installation Notes:
 Using MySQL, create the database and associated credentials and then run *install_viz.sql* found in the *install* directory.  Make sure to include your connection information and credentials in the *config.php* file.
