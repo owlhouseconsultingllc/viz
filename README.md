@@ -5,7 +5,7 @@
 
 **Mobile Ready!**
 
-![Mobile Image](https://owlhousellc.com/oh_sample3.png)
+![Mobile Image](https://owlhousellc.com/oh_sample3.png) ![Mobile Image](https://owlhousellc.com/oh_mobile_sm.gif)
 
 **Live Demo available at:
      https://owlhousellc.com/livedemo**
