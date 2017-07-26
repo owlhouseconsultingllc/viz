@@ -30,7 +30,7 @@ The default view-only credentials are as follows(no edit or user admin access):
 
 
 ## Sample Data Installation Notes (Optional):
-For examples/sample data, create a database named *sampledb* and run the *sampledb.sql*.  Next, run the *sample_tabs.sql* and *sample_visualizations.sql* on the viz database.  The visualizations will need to be updated with the correct connection/authentication information by clicking on the cog icon, going in to Manage Visualizations, and editing each.
+For examples/sample data, create a database named *sampledb* and run the *sampledb.sql*.  Next, run the *sample_tabs.sql* and *sample_visualizations.sql* on the *viz* database.  The visualizations will need to be updated with the correct connection/authentication information by clicking on the cog icon, going in to Manage Visualizations, and editing each.
 
 Once the installation is complete, the *install* directory should be deleted.
 
