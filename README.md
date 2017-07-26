@@ -11,7 +11,7 @@
      https://owlhousellc.com/livedemo**
 
 ## Installation Notes:
-Using MySQL, create the database and associated credentials and then run *install_viz.sql* found in the *install* directory.  Make sure to include your connection information and credentials in the *config.php* file.
+Using MySQL, create the *viz* database and associated credentials.  Next, run *install_viz.sql* found in the *install* directory.  Make sure to include your connection information and credentials in the *config.php* file.
 
 The default admin credentials are as follows:
 
