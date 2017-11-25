@@ -138,6 +138,7 @@ if (!$result) {    die("Query to show fields from table failed.");}
 		
 		//Size
 		echo "<div class=\"row\"><div class=\"col-md-6\"><div class=\"form-group\"><label for=\"newvizsize\">Size:</label><select class='form-control viztext' id ='newvizsize' name='newvizsize' value=\"".$row['size']."\">";
+		echo "<option ".(($row['size']=='col-md-4')? ' selected="selected"' : '')." value=\"col-md-4\">col-md-4</option>";
 		echo "<option ".(($row['size']=='col-md-6')? ' selected="selected"' : '')." value=\"col-md-6\">col-md-6</option>";
 		echo "<option ".(($row['size']=='col-md-12')? ' selected="selected"' : '')." value=\"col-md-12\">col-md-12</option>";
 		echo "</select></div></div>";
