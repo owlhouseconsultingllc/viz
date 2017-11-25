@@ -55,7 +55,7 @@ Tab: Tab in which you would like visualization to appear
 
 Position: Position on tab which the visualization will appear
 
-Size: Bootstrap width (col-md-6 or col-md-12)
+Size: Bootstrap width (col-md-4, col-md-6, or col-md-12)
 
 Class: Custom class for visualization
 
