@@ -1,6 +1,12 @@
 # viz
 **Simple dashboard builder written in PHP that uses MySQL, Bootstrap, and D3/NVD3 for Data visualizations.**
 
+**Viz Mobile Dashboard Builder** is a dashboard reporting platform designed to sit on top of a data warehouse or access information from multiple data sources.  Viz is a web-based, mobile-ready, application designed using *PHP*, *MySQL*, *Bootstrap*, *D3*, *NVD3*, *DataTables*, and *PHPAuth*.
+
+The included templates provide common visualization types including bar, pie, line and scatter.  Additional object templates such as html, image, mp4, and iframe are also available.  Tabs can be created and visualizations added easily.  The tab and visualization layout options are simple but provide powerful flexibility and easy customization.  Data source database types include MySQL and MS-SQL*.
+
+*_For MS-SQL connection functionality, **Viz Mobile Dashboard Builder** must be installed within a Microsoft Windows environment with PHP and MySQL support._
+
 ![Dashboard Image](https://owlhousellc.com/oh_tablet_md.jpeg)
 
 **Mobile Ready!**
