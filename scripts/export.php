@@ -14,13 +14,23 @@ $sessresult = $dbh->prepare('UPDATE sessions SESS SET SESS.expiredate=? WHERE SE
 $sessresult->execute([$expire,$hash]);
 include '../config.php';
 
+$vizname = $_POST['filename'];
 $filename = $_POST['filename']."_".date('YmdHis');
-$dbtype = $_POST['dbtype'];
-$dbhost = $_POST['dbhost'];
-$dbname = $_POST['dbname'];
-$dbuser = $_POST['dbuser'];
-$dbpass = $_POST['dbpass'];
-$query = $_POST['query'];
+
+
+//Get visualization specific data
+		$vizdata = $dbh->prepare("SELECT dbtype, dbhost, dbuser, dbpass, dbname, query FROM visualizations WHERE name=?");
+		//$tab='testab0';
+		$vizdata->execute([$vizname]);
+		if (!$vizdata) {die("Query to show fields from table failed.");}
+		foreach ($vizdata as $dataobjectrow){
+		$dbtype = $dataobjectrow['dbtype'];
+		$dbhost = $dataobjectrow['dbhost'];
+		$dbname = $dataobjectrow['dbname'];
+		$dbuser = $dataobjectrow['dbuser'];
+		$dbpass = $dataobjectrow['dbpass'];
+		$query = $dataobjectrow['query'];
+		}
 
 //var_dump($_POST);
 
